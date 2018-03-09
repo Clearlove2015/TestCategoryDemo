@@ -1,4 +1,4 @@
-package com.helloword.zhangjianlong.testcategorydemo.ui.category;
+package com.odbpo.fenggou.categorydemo.ui.category;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,11 +8,11 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.LinearLayout;
 
 import com.google.gson.Gson;
-import com.helloword.zhangjianlong.testcategorydemo.R;
-import com.helloword.zhangjianlong.testcategorydemo.bean.CategoryBean;
-import com.helloword.zhangjianlong.testcategorydemo.ui.category.adapter.FAdapter;
-import com.helloword.zhangjianlong.testcategorydemo.ui.category.adapter.SAdapter;
-import com.helloword.zhangjianlong.testcategorydemo.utils.ReadAssetsUtil;
+import com.odbpo.fenggou.categorydemo.R;
+import com.odbpo.fenggou.categorydemo.bean.CategoryBean;
+import com.odbpo.fenggou.categorydemo.ui.category.adapter.FAdapter;
+import com.odbpo.fenggou.categorydemo.ui.category.adapter.SAdapter;
+import com.odbpo.fenggou.categorydemo.utils.ReadAssetsUtil;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.helloword.zhangjianlong.testcategorydemo;
+package com.odbpo.fenggou.categorydemo;
 
 import org.junit.Test;
 

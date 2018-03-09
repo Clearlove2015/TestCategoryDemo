@@ -1,4 +1,4 @@
-package com.helloword.zhangjianlong.testcategorydemo.utils;
+package com.odbpo.fenggou.categorydemo.utils;
 
 import android.content.Context;
 import android.content.res.AssetManager;

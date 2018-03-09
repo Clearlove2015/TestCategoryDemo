@@ -1,4 +1,4 @@
-package com.helloword.zhangjianlong.testcategorydemo;
+package com.odbpo.fenggou.categorydemo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

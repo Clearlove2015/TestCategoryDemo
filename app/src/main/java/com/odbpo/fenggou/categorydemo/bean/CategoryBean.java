@@ -1,4 +1,4 @@
-package com.helloword.zhangjianlong.testcategorydemo.bean;
+package com.odbpo.fenggou.categorydemo.bean;
 
 import java.util.List;
 

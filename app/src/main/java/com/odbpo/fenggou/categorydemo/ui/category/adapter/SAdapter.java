@@ -1,4 +1,4 @@
-package com.helloword.zhangjianlong.testcategorydemo.ui.category.adapter;
+package com.odbpo.fenggou.categorydemo.ui.category.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.helloword.zhangjianlong.testcategorydemo.R;
-import com.helloword.zhangjianlong.testcategorydemo.bean.CategoryBean;
-import com.helloword.zhangjianlong.testcategorydemo.utils.NoScrollGridLayoutManager;
+import com.odbpo.fenggou.categorydemo.R;
+import com.odbpo.fenggou.categorydemo.bean.CategoryBean;
+import com.odbpo.fenggou.categorydemo.utils.NoScrollGridLayoutManager;
 
 import java.util.ArrayList;
 import java.util.List;
