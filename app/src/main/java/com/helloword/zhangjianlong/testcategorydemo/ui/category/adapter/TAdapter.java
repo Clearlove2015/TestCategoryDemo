@@ -7,8 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.google.gson.Gson;
 import com.helloword.zhangjianlong.testcategorydemo.R;
 import com.helloword.zhangjianlong.testcategorydemo.bean.CategoryBean;
 
@@ -39,10 +41,18 @@ public class TAdapter extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, final int position) {
         ViewHolder itemHolder = (ViewHolder) holder;
         itemHolder.tTv.setText(mData.get(position).getName());
         Glide.with(context).load(mData.get(position).getImgSrc()).into(itemHolder.tIv);
+
+        itemHolder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Gson gson = new Gson();
+                Toast.makeText(context,gson.toJson(mData.get(position)),Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override
@@ -55,10 +65,12 @@ public class TAdapter extends RecyclerView.Adapter {
         ImageView tIv;
         @Bind(R.id.t_tv)
         TextView tTv;
+        View itemView;
 
         public ViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this,itemView);
+            this.itemView = itemView;
         }
     }
 }
